@@ -70,7 +70,7 @@ public class CalculadoraDeFreteTest extends TestCase{
 		assertThrows(DistanciaException.class, () -> { cdf.calcularFrete(9999, -50.2);}); //7
 		assertThrows(DistanciaException.class, () -> { cdf.calcularFrete(25, -50.25);}); //8
 		assertThrows(DistanciaException.class, () -> { cdf.calcularFrete(99999, -99999);}); //9
-		assertThrows(DistanciaException.class, () -> { cdf.calcularFrete(99999, -0.0000001);}); //9
+		assertThrows(DistanciaException.class, () -> { cdf.calcularFrete(99999, -0.0000001);}); //10
 		
 		
 		
